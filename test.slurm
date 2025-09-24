@@ -17,7 +17,7 @@ if [ ! -f ./gmres ]; then
 fi
 
 # 矩阵文件所在的基础目录
-MATRIX_DIR="/data/Competitions/PRA25/sparseMatrixSet"
+MATRIX_DIR="/data/Recruitment/GMRES/sparseMatrixSet"
 
 for i in $(seq 1 80)
 do
